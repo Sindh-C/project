@@ -1,0 +1,510 @@
+		#about_us
+		{
+			background-color:black;
+			height:600px;
+		}
+		.aboutimage
+{
+width:400px;
+height:400px;
+position:relative;
+left:800px;
+top:-170px;
+}
+#paragraph
+{
+color:white;
+font-size:20px;
+font-weight:bolder;
+font-style:cursive;
+position:relative;
+left:4px;
+top:210px;
+}
+#abouth1
+{
+color:yellow;
+font-size:40px;
+font-weight:bolder;
+font-style:cursive;
+position:relative;
+top:50px;
+}
+
+
+
+		.img1
+		{
+			height:100px;
+			width: 100px;
+			border-radius:100px;
+			position:relative;
+			left:20px;
+		}
+		#div1
+		{
+			
+			background:url(petshop/img4.jpg);
+			background-attach:fixed;
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-position:center;
+			width:100%;
+			height:600px;
+				
+		}
+		#home
+		{
+			position:sticky;
+			top:5px;
+		}
+		li
+		{
+			display:inline;
+			float:right;
+			position:relative;
+			bottom:80px;
+			right:30px;
+			text-indent:50px;
+			font-family:cursive;
+			font-weight:bold;
+			font-size:20px;
+			list-type:none;
+
+		}
+		#anchor
+		{
+			text-decoration:none;
+			color:white;
+
+		}
+
+		#anchor:active,#anchor:hover
+		{
+			background-color:lightblue;
+			transition:.5s;
+			border-radius:20px;
+			font-size: 20px;
+			font-family:serif;					
+		}
+
+		#feedback
+		{
+			background-image:url(petshop/background5.png);
+			color:black;
+			height:300px;
+			background-attach:fixed;
+			background-repeat:no-repeat;
+			background-size:cover;
+		}
+		#contact-us
+		{
+		background-color:black;
+		color:white;
+		word-spacing:50px;
+		height:50px;
+		text-align:center;
+		width:100%;
+		}
+.homespan
+{
+animation:colorchange;
+animation-duration:05s;
+animation-iteration-count:infinite;
+color:red;
+
+}
+@keyframes colorchange
+{
+0%{color:yellow}
+10%{color:green}
+20%{color:blue}
+30%{color:pink}
+40%{color:lime}
+50%{color:grey}
+}
+#regbackground
+{	background-image:url(petshop/regback.jpg);
+        backgruond-size:cover;
+	text-align:center;
+}
+#reg
+{
+background-color:white;
+width:95%;
+height:500px;
+position:relative;
+left:480px;
+top:-140px;
+}
+#regbox
+{
+background-color:maroon;
+width:35%;
+height:500px;
+position:relative;
+left:180px;
+}
+#h1
+{
+animation:h1colorchange;
+animation-duration:05s;
+animation-iteration-count:infinite;
+color:red;
+
+}
+@keyframes h1colorchange
+{
+0%{color:yellow}
+10%{color:green}
+20%{color:blue}
+30%{color:pink}
+40%{color:lime}
+50%{color:grey}
+60%{color:orange}
+}
+#logbackground
+{	background-image:url(petshop/bird.gif);
+       	background-size:cover;
+	text-align:center;
+}
+#logindiv
+{
+background-color:white;
+width:25%;
+height:400px;
+position:relative;
+left:500px;
+top:40px;
+}
+#loginh1
+{
+animation:loginh1colorchange;
+animation-duration:05s;
+animation-iteration-count:infinite;
+color:red;
+
+}
+@keyframes loginh1colorchange
+{
+0%{color:yellow}
+10%{color:green}
+20%{color:blue}
+30%{color:pink}
+40%{color:lime}
+50%{color:grey}
+60%{color:orange}
+}
+#chooseorder
+{	background-image:url(petshop/background11.jpg);
+       	background-size:cover;
+	background-attachment:fixed;
+	overflow:hidden;
+	
+}
+#chooseheading
+{
+ text-align:center;
+ font-family:cursive;
+ font-weight:bolder;
+ color:white;
+}
+#dogheading
+{
+ text-align:center;
+ font-family:cursive;
+ font-weight:bolder;
+ color:black;
+
+}
+
+#dogdiv1
+{
+ border:1px solid red;
+ width:270px;
+ height:350px;
+position:relative;
+left:30px;
+margin:0px;
+padding:0px;
+}
+#image1
+{
+width:240px;
+height:240px;
+position:relative;
+left:-25px;
+}
+#image1:hover
+{
+transform:scale(1.3,1.2);
+}
+
+
+#dogdiv2
+{
+  border:1px solid red;
+ width:270px;
+ height:350px;
+position:relative;
+left:30px;
+margin:0px;
+padding:0px;
+}
+#image2
+{
+width:240px;
+height:240px;
+position:relative;
+left:-25px;
+}
+#image2:hover
+{
+transform:scale(1.3,1.2);
+}
+
+#dogdiv3
+{
+  border:1px solid red;
+ width:270px;
+ height:350px;
+position:relative;
+left:330px;
+top:-705px;
+margin:0px;
+padding:0px;
+}
+#image3
+{
+width:240px;
+height:240px;
+position:relative;
+left:-25px;
+top:-10px;
+}
+#image3:hover
+{
+transform:scale(1.3,1.2);
+}
+#dogdiv4
+{
+  border:1px solid red;
+ width:270px;
+ height:350px;
+position:relative;
+left:330px;
+top:-705px;
+margin:0px;
+padding:0px;
+}
+#image4
+{
+width:240px;
+height:240px;
+position:relative;
+left:-25px;
+top:-10px;
+}
+#image4:hover
+{
+transform:scale(1.3,1.2);
+}
+
+#dogdiv5
+{
+ border:1px solid red;
+ width:270px;
+ height:350px;
+position:relative;
+left:630px;
+top:-1410px;
+margin:0px;
+padding:0px;
+}
+#image5
+{
+width:240px;
+height:240px;
+position:relative;
+left:-25px;
+top:-10px;
+}
+#image5:hover
+{
+transform:scale(1.3,1.2);
+}
+#dogdiv6
+{
+ border:1px solid red;
+ width:270px;
+ height:350px;
+position:relative;
+left:630px;
+top:-1410px;
+margin:0px;
+padding:0px;
+}
+#image6
+{
+width:240px;
+height:240px;
+position:relative;
+left:-25px;
+top:-10px;
+}
+#image6:hover
+{
+transform:scale(1.3,1.2);
+}
+
+#dogdiv7
+{
+ border:1px solid red;
+ width:270px;
+ height:350px;
+position:relative;
+left:930px;
+top:-2115px;
+margin:0px;
+padding:0px;
+}
+#image7
+{
+width:240px;
+height:240px;
+position:relative;
+left:-25px;
+top:-10px;
+}
+#image7:hover
+{
+transform:scale(1.3,1.2);
+}
+
+#dogdiv8
+{
+ border:1px solid red;
+ width:270px;
+ height:350px;
+position:relative;
+left:930px;
+top:-2115px;
+margin:0px;
+padding:0px;
+}
+#image8
+{
+width:240px;
+height:240px;
+position:relative;
+left:-25px;
+top:-10px;
+}
+#image8:hover
+{
+transform:scale(1.3,1.2);
+}
+
+#dogbody
+{
+background-image:url(petshop/dogbodt.jpg);
+background-size:cover;
+background-attachment:fixed;
+width:100%;
+height:90%;
+overflow-x:hidden;
+}
+#pay
+{
+font-family:cursive;
+ font-weight:bolder;
+ color:maroon;
+font-size:50px;
+}
+
+#paydetails
+{
+background-color:maroon;
+width:40%;
+height:400px;
+position:relative;
+left:180px;
+top:50px;
+}
+
+#money
+{
+background-image:url(petshop/money1.gif);
+background-attachment:fixed;
+width:30%;
+height:400px;
+position:relative;
+left:740px;
+top:-390px;
+border-radius:90px;
+}
+
+#paymentmain
+{
+background-image:url(petshop/background10.jpg);
+background-size:cover;
+background-attachment:fixed;
+overflow:hidden;
+
+}
+#endpage
+{
+background-image:url(petshop/dogfamily.jpg);
+background-size:cover;
+background-attachment:fixed;
+}
+#endh1
+{
+animation:endh1colorchange;
+animation-duration:05s;
+animation-iteration-count:infinite;
+color:red;
+position:relative;
+top:20px;
+font-size:80px;
+
+}
+@keyframes endh1colorchange
+{
+0%{color:yellow}
+10%{color:green}
+20%{color:blue}
+30%{color:pink}
+40%{color:lime}
+50%{color:grey}
+60%{color:orange}
+}
+
+#endh4
+{
+animation:endh1colorchange;
+animation-duration:05s;
+animation-iteration-count:infinite;
+color:red;
+position:relative;
+top:20px;
+font-size:20px;
+
+}
+@keyframes endh4colorchange
+{
+0%{color:brown}
+10%{color:gray}
+20%{color:lime}
+30%{color:yellow}
+40%{color:orange}
+50%{color:blue}
+60%{color:maroon}
+}
+#order1
+{
+text-decoration:none;
+color:red;
+font-size: 15px;
+font-family:serif;
+}
